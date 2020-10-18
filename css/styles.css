@@ -1,0 +1,16 @@
+body {
+  background-image: url(https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+#title{
+  margin: 1%;
+  padding: 1%;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+}
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #D35A87;
+}
