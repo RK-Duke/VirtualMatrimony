@@ -14,3 +14,51 @@ body {
   text-align: center;
   background-color: #D35A87;
 }
+.active{
+  background-color: #FFFFFF;
+}
+.navbar-brand{
+  margin-left: 5%;
+  color: #F1D4D4;
+  font-size: 20px;
+}
+.nav-link{
+  color: #F1D4D4;
+  font-size: 15px;
+}
+.row{
+  margin: 5%;
+  line-height: 5;
+}
+.get{
+  color: #FFF;
+  text-decoration: none;
+  opacity: .8;
+  font-size: 22px;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: #D35A87;
+}
+.couples{
+  height: 35rem;
+  width: auto;
+  border-radius: 2%;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.nav-link:hover{
+  color:#fff;
+}
+.get:hover{
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
