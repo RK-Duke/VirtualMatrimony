@@ -1,6 +1,7 @@
 body {
-  background-image: url(https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-repeat: repeat;
+  background-image: url(https://images.pexels.com/photos/4005082/pexels-photo-4005082.jpeg);
+  background-repeat: no-repeat;
+  background-size: contain;
   font-family: 'Montserrat', sans-serif;
 }
 #title{
@@ -12,23 +13,70 @@ body {
 #testimonials{
   padding: 7% 15%;
   text-align: center;
-  background-color: #D35A87;
+  background-color: #6FA4A4;
+  color: #FFFFFF;
+  z-index: 1;
+}
+#features{
+  padding: 3% 8%;
+  background-color: #CEE397;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+#cta {
+  background-color: #CEE397;
+  color: #FFFFFF;
+  padding: 7% 15%;
+  text-align: center;
+  z-index: 1;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  z-index: 1;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.email{
+  width: 40%;
+  height: 30%;
+  margin: 1%;
+  background-color: rgba(255, 255, 255, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  border-style: double;
+}
+.features-box{
+  text-align: center;
+  padding: 2%;
+}
+.icon{
+  color: #6FA4A4;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #3797A4;
 }
 .active{
   background-color: #FFFFFF;
 }
 .navbar-brand{
   margin-left: 5%;
-  color: #F1D4D4;
-  font-size: 20px;
+  font-size: 30px;
+  color: #495464;
+  font-family: 'Vollkorn',sans-serif;
 }
 .nav-link{
-  color: #F1D4D4;
   font-size: 15px;
+  color: #495464;
 }
 .row{
   margin: 5%;
-  line-height: 5;
+  line-height: 2;
+  text-align: center;
 }
 .get{
   color: #FFF;
@@ -39,23 +87,33 @@ body {
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
-  margin: 20px;
+  margin: 18px;
 }
 .carousel-item{
   padding-left: 10%;
   padding-right: 10%;
-  background-color: #D35A87;
+  background-color: #6FA4A4;
 }
 .couples{
   height: 35rem;
   width: auto;
   border-radius: 2%;
 }
+.cta-heading{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.social-icon {
+  margin: 20px 10px;
+  text-decoration: none;
+  color: #1A1C20;
+}
 .navbar-brand:hover{
-  color: #fff;
+  color: #1A1C20;
 }
 .nav-link:hover{
-  color:#fff;
+  color: #1A1C20;
 }
 .get:hover{
   text-decoration: none;

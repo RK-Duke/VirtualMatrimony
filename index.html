@@ -9,7 +9,13 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d34708923e.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="favicon_io/site.webmanifest">
   <title>Virtual Matrimony</title>
 </head>
 
@@ -28,7 +34,7 @@
               <a class="nav-link" class="active" href="#tittle">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sign Up</a>
+              <a class="nav-link" href="signup.html">Sign Up</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contact</a>
@@ -38,27 +44,49 @@
       </nav>
 
       <div class="row">
-        <div class="col-lg-6">
-          <h2 class="slogen">Welcome to Virtual Matrimony, We find a perfect match for you!</h2>
-          <a class="get" href="#">Click Here to get Started</a>
-        </div>
-        <div class="col-lg-6">
-          <img class="couples" src="https://images.pexels.com/photos/3014856/pexels-photo-3014856.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="couples">
+        <div class="col-lg-12">
+          <h2 class="slogen">Welcome to Virtual Matrimony, We find perfect match for you!</h2>
+          <input class="email" type="text" name="email" placeholder="Email" value="">
+          <a class="get" href="#">Submit Here to get Started</a>
         </div>
       </div>
     </div>
+  </section>
+
+  <section id="features">
+
+    <div class="row">
+      <div class="features-box col-lg-4">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, just swipe right and left.</p>
+      </div>
+
+      <div class="features-box col-lg-4">
+        <i class="icon fas fa-dot-circle fa-4x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have people from all over the world, ready to get to know.</p>
+      </div>
+
+      <div class="features-box col-lg-4">
+        <i class="icon far fa-heart fa-4x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your life on your fingertips.</p>
+      </div>
+    </div>
+
   </section>
 
   <section id="testimonials">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimonial-image" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="dog-profile">
+          <h2 class="testimonial-text">This is great webiste,I was looking for someone long and I have found it in a month.</h2>
+          <img class="testimonial-image" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="profile">
           <em>Pebbles, New York</em>
         </div>
         <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <h2 class="testimonial-text">I used to be so lonely, but with Virtual Matrimony's help, I've found the love of my life. I think.</h2>
           <img class="testimonial-image" src="https://images.pexels.com/photos/3763152/pexels-photo-3763152.jpeg" alt="lady-profile">
           <em>Beverly, Illinois</em>
         </div>
@@ -73,6 +101,22 @@
       </a>
     </div>
   </section>
+
+  <section id="cta">
+
+    <h3 class="cta-heading">Find the True Love of Your Life Today.</h3>
+    <button class="download-btn btn btn-lg btn-light" type="button">Sign Up Today</button>
+
+  </section>
+
+  <footer id="footer">
+    <a href="www.facebook.com"><i class="social-icon fab fa-facebook"></i></a>
+    <a href="www.twitter.com"><i class="social-icon fab fa-twitter"></i></a>
+    <a href="www.instagram.com"><i class="social-icon fab fa-instagram"></i></a>
+    <a href="www.gmail.com"><i class="social-icon far fa-envelope"></i></a>
+    <p>© Copyright 2020 Virtual Matrimony</p>
+
+  </footer>
 
 
 </body>
