@@ -1,5 +1,7 @@
-body{
-  background-color: #CEE397;
+body {
+  background-image: url(https://images.pexels.com/photos/4005082/pexels-photo-4005082.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Montserrat', sans-serif;
 }
 #title{
@@ -13,8 +15,13 @@ body{
   text-align: center;
   z-index: 1;
 }
-.container-fluid{
-  padding: 3% 15% 7%;
+
+.icon{
+  color: #6FA4A4;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #3797A4;
 }
 .active{
   background-color: #FFFFFF;
@@ -29,6 +36,20 @@ body{
   font-size: 15px;
   color: #495464;
 }
+.row{
+  margin: 5%;
+  line-height: 2;
+  text-align: center;
+}
+.get{
+  color: #FFF;
+  text-decoration: none;
+  opacity: .8;
+  font-size: 22px;
+}
+.btn{
+  color: #1A1C20;
+}
 .social-icon {
   margin: 20px 10px;
   text-decoration: none;
@@ -40,7 +61,12 @@ body{
 .nav-link:hover{
   color: #1A1C20;
 }
-input[type=text], input[type=password] {
+.get:hover{
+  text-decoration: none;
+  color: #fff;
+  opacity: 1;
+}
+input[type=text], input[type=password], input[type=email] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -49,7 +75,7 @@ input[type=text], input[type=password] {
   background: #f1f1f1;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -58,9 +84,7 @@ hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
-
-/* Set a style for all buttons */
-button {
+.signupbtn{
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -71,37 +95,25 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+.signupbtn:hover {
   opacity:1;
 }
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
+@media only screen
+  and (min-device-width: 411px)
+  and (max-device-width: 823px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  #footer{
+    background-color: #FFFFFF;
+  }
+  .navbar-brand{
+    margin-left: 1%;
+  }
+  .navbar-nav{
+    text-align: right;
   }
 }

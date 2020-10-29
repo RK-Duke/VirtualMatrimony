@@ -37,18 +37,6 @@ body {
   text-align: center;
   z-index: 1;
 }
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-.email{
-  width: 40%;
-  height: 30%;
-  margin: 1%;
-  background-color: rgba(255, 255, 255, 0.3);
-  font-family: 'Montserrat', sans-serif;
-  border-radius: 10px;
-  border-style: double;
-}
 .features-box{
   text-align: center;
   padding: 2%;
@@ -104,6 +92,9 @@ body {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+.btn{
+  color: #1A1C20;
+}
 .social-icon {
   margin: 20px 10px;
   text-decoration: none;
@@ -119,4 +110,23 @@ body {
   text-decoration: none;
   color: #fff;
   opacity: 1;
+}
+@media only screen
+  and (min-device-width: 411px)
+  and (max-device-width: 883px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+  body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+  #footer{
+    background-color: #FFFFFF;
+  }
+  .navbar-brand{
+    margin-left: 1%;
+  }
+  .navbar-nav{
+    text-align: right;
+  }
 }
